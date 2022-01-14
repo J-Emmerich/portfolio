@@ -1,185 +1,131 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"João Emmerich",
+    "description":"I am a FullStack Javascript developer and I use NodeJS and React to develop web applications.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"I was never satisfied with the short answer. Lead by curiosity I found programming when in my own company, Furmidable Family, I took the responsibility of designing our website. Soon the default theme in Wordpress was not enough, I wanted to tweak things and make the website my own. So, I learned HTML and CSS, then PHP and Mysql. And boom! I was caught by programming and couldn't turn back.",
+    "contactmessage":"Get in touch!",
+    "email": "emmerichjoao@pm.me",
+    "phone": "645-725-583",
+    "github":"https://github.com/J-Emmerich",
+    "project":"https://gordianknot.xyz",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Góngora 26",
+      "city":"Barcelona",
+      "state":"Cataluña",
+      "zip": "08042"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://joaoemmerich.com",
+    "resumedownload":"https://joaoemmerich.com/resume",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
+     
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/joao-emmerich/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/J-Emmerich",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Some of the technologies I've been working on",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"IT Academy Bootcamp",
+        "degree":"Backend with NodeJS",
+        "graduated":"December 2021",
+        "description":"A one year bootcamp focused in the backend. I started from the very base in a fundamental javascript course. Gradually moving to developing Secure API, SQL and No-SQL databases, Socket.IO and Design Patterns"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Core NetWorks SL",
+        "degree":"Web development with PHP",
+        "graduated":"March 2021",
+        "description":"2 months bootcamp on PHP, learning the fundamentals of the language, SQL databases and OOP with PHP"
+      },
+      {
+        "school":"Federal University of Santa Catarina",
+        "degree":"Screenwriting",
+        "graduated":"December 2013",
+        "description":"A carrer in screenwriting and film making. Studied narrative structure and creative writing. Cinema history and theory, photography and video editing"
       }
+
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Adiccare",
+        "title":"Junior FullStack developer",
+        "years":"November 2021",
+        "description":"As a final project on the IT Academy Bootcamp I did a internship of 2 weeks in this company. I worked on the backend and frontend. I worked on the design and implementation of forms and user inputs. Working with NodeJS, Express, React, Redux, Saga and TypeScript"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Furmidable Family",
+        "title":"Partner and Webdeveloper",
+        "years":"September 2019 - present",
+        "description":"A company I started with a partner, I'm developing the new website(not released) a intern tool for invoices and client management. And also manage the finances and design marketing content."
+      },
+      {
+        "company":"Bosch",
+        "title":"Mobility Agent",
+        "years":"February 2020 - present",
+        "description":"Emergency call operator, receiving calls in English, Portuguese, French and Spanish."
+      },
+      {
+        "company":"Anunzen Classified Media",
+        "title":"Content QA and Team Leader",
+        "years":"August 2018 - October 2019",
+        "description":"I had to manage a team of about 30 freelancers and ensure they meet their KPI's. Review the content they produced, hire and give training to new copywriters."
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Javascript",
+        "level":"100%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"NodeJs",
         "level":"90%"
       },
       {
-        "name":"PHP",
+        "name":"ReactJs",
         "level":"80%"
       },
       {
-        "name":"Swift",
+        "name":"CSS",
+        "level":"80%"
+      },
+      {
+        "name":"PHP",
+        "level":"70%"
+      },
+      {
+        "name":"C#",
         "level":"50%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Unity",
+        "level":"50%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Gordian Knot",
+        "category":"My ERP-CRM project. In development.",
+        "image":"gordian-knot.jpg",
+        "url":"https://gordianknot.xyz"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Furmidable Family",
+        "category":"A company I started with a partner. We sell eco-friendly products for cat owners",
+        "image":"furmidable-family.jpg",
+        "url":"https://www.furmidablefamily.com"
       }
+      
     ]
   }
 }

@@ -12,10 +12,10 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
-
+    const email = this.props.data.email
     return (
       <section id="contact">
-        <Fade bottom duration={1000}>
+        {/* <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -27,10 +27,10 @@ class Contact extends Component {
               <p className="lead">{message}</p>
             </div>
           </div>
-        </Fade>
+        </Fade> */}
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,12 +101,12 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Get in touch</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -114,36 +114,9 @@ class Contact extends Component {
                   {city}, {state} {zip}
                   <br />
                   <span>{phone}</span>
+                  <br />
+                  <span>{email}</span>
                 </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
               </div>
             </aside>
           </Slide>
